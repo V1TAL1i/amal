@@ -45,86 +45,112 @@ a {
             }
         }
     }
-    &_nav{
-        &>.container{
+
+    &_nav {
+        &>.container {
             width: 70%;
             margin: auto;
             align-items: center;
             display: flex;
             justify-content: space-between;
-           
-            .Bucker{
+
+            .Bucker {
                 background-color: #243a6e;
                 height: 125px;
                 width: 150px;
                 text-align: center;
                 border-radius: 0 0 55px;
-                
-            }
-            .nav{
 
-                ul{
+            }
+
+            .nav {
+
+                ul {
                     display: flex;
                     gap: 40px;
-                color: black;
-                li{
-                    list-style: none;
-                    position: relative;
-                    &:hover{
-                        color: white;
-                        transition: .3s;
-                        
-                        &:after{
-                            content: '';
-                            position: absolute;
-                            width: 100px;
-                            height: 100px;
-                            background-image: url(./img/menu_shape.webp);
-                            background-repeat: no-repeat ;
-                            left: -18px;
-                            top: -25px;
-                            z-index: -1;
-                        }
-                    }
-                   
-                }
-                }
-            //    &_nav{
-            //     &_average{
+                    color: black;
 
+                    li {
+                        list-style: none;
+                        position: relative;
+
+                        &:hover {
+                            color: white;
+                            transition: .3s;
+
+                            &:after {
+                                content: '';
+                                position: absolute;
+                                width: 100px;
+                                height: 100px;
+                                background-image: url(./img/menu_shape.webp);
+                                background-repeat: no-repeat;
+                                left: -18px;
+                                top: -25px;
+                                z-index: -1;
+                            }
+                        }
+
+                    }
+                }
+
+  
                 
-            //     &>.container2{
-            //         width: 100%;
-            // margin: auto;
-            // display: flex;
-            // justify-content: space-between;
-            // padding: 20px 0;
-                   
-            //       .image{
-                    
-            //         background-image: url(./img/buckery.jpg);
-            //         width: 100%;
-            //         height: 100px;
-                    
-                       
-            //       }
-            //       .text{
-            //         font-size: 2rem;
-            //         color: black;
-            //     }
-                        
-            //         }
-            //     }
-            //    }
             }
-            .icons{
+
+            .icons {
                 color: black;
                 font-size: 30px;
                 display: flex;
                 gap: 20px;
             }
+
         }
+       
     }
+    &_average{
+        
+                &>.container2 {
+                    width: 100%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 20px 0;
+
+                    ._nav1{
+                        width: 100%;
+                        font-family:serif;
+                        position: relative;
+                        img {
+                            width: 100%;
+                            position: absolute;
+                            z-index: -1;
+
+                        }
+
+
+
+                    }
+
+                    .text {
+                        font-size: 25px;
+                        color: black;
+                        margin-left: 120px;
+                        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        .home{
+                            margin-top: 20px;
+                            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        font-size: 18px;
+                        }
+                        .drob{
+                            color:#fc7c7c;
+                        }
+                        .about{
+                            color:#fc7c7c;
+                        }
+                    }
+
+                }
+            }
 
 }
-
