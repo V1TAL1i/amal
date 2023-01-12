@@ -136,11 +136,14 @@ a {
                         font-size: 25px;
                         color: black;
                         margin-left: 120px;
-                        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-family: "Playfair Display", serif;
+                        margin-left: 300px;
+                        margin-top: 170px;
                         .home{
                             margin-top: 20px;
                             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                         font-size: 18px;
+                        
                         }
                         .drob{
                             color:#fc7c7c;
@@ -151,6 +154,44 @@ a {
                     }
 
                 }
+                &>.container3{
+                    width: 750px;
+                    margin-left: 330px;
+                    
+                    display: flex;
+                    margin-top: 300px;
+                                      .youtube{
+                    background-image: url(img/aboutbg.webp);
+                    background-repeat: no-repeat;
+                    
+                                 
+                                      }
+                .logo{
+                    background-image: url(img/videoplay.webp);
+                    position:absolute;
+                    
+                    background-repeat: no-repeat;
+                    margin-left:500px;
+                    background-position: left;
+                                      }
+                }
+                &>.obj{
+
+                
+               .texxt{
+                color: black;
+                align-items: center;
+                margin-left: 350px;
+            
+               }
+               .teex{
+                color: black;
+                align-items: center;
+                margin-left: 750px;
+                position: absolute;
+               }
             }
+            }
+           
 
 }
