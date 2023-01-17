@@ -157,41 +157,65 @@ a {
                 &>.container3{
                     width: 750px;
                     margin-left: 330px;
-                    
                     display: flex;
                     margin-top: 300px;
-                                      .youtube{
+
+                 .youtube{
                     background-image: url(img/aboutbg.webp);
                     background-repeat: no-repeat;
+                    
                     
                                  
                                       }
                 .logo{
-                    background-image: url(img/videoplay.webp);
-                    position:absolute;
-                    
+
                     background-repeat: no-repeat;
                     margin-left:500px;
                     background-position: left;
+                    list-style-type: none;
                                       }
                 }
                 &>.obj{
-
+width: 100px;
                 
                .texxt{
+                margin-top: 100px;
+             
                 color: black;
                 align-items: center;
-                margin-left: 350px;
+                margin-left: 330px;
+                list-style-type: none;
+                width: 700px;
+                height: 100px;
+                display: block;
+
             
-               }
+               
                .teex{
                 color: black;
                 align-items: center;
                 margin-left: 750px;
+                width: 700px;
+                height: 100px;
                 position: absolute;
                }
             }
             }
+
+            &>.blocker{
+
+.block1{
+    color: #243a6e;
+    width: 100px;
+height: 300px;
+}
+.block2{
+    color: #243a6e;
+    width: 100px;
+height: 300px;  
+}
+            }
+        }
            
 
 }

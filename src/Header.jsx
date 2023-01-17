@@ -7,6 +7,11 @@ import {CiHeart} from "react-icons/ci";
 import {CgShoppingBag} from "react-icons/cg";
 import imag from "./img/aboutbg.webp"; 
 import logot from "./img/videoplay.webp";
+// import block1 from ".img\brand-hover1.webp";
+// // import block2 from ".img\brand-hover2.webp";
+// // import block3 from ".img\brand-hover3.webp";
+// // import block4 from ".img\brand-hover4.webp";
+// // import block5 from ".img\brand-hover5.webp";
  
 export default function Header() {
   return (
@@ -66,12 +71,16 @@ export default function Header() {
             
     <div className="youtube">
       <img src={imag} alt="" />
-      <div className="logo">
       <a href="https://youtu.be/2Zt8va_6HRk">
       <img src={logot} alt="" />
       </a>
+      <div className="logo">
+      
+
       </div>
+
       </div>
+      
     </div>
     <div className="obj">
     <div className="texxt">
@@ -95,6 +104,27 @@ export default function Header() {
    </div>
     </div>
     </div>
+
+    <div className="blocker">
+<div className="block1">
+  {/* <img src={block1} alt=".img\brand-hover1.webp" /> */}
+
+</div>
+<div className="block2">
+  {/* <img src={block2} alt="" /> */}
+</div>
+<div className="block3"> 
+  {/* <img src={block3} alt="" /> */}
+</div>
+<div className="block4">
+  {/* <img src={block4} alt="" /> */}
+</div>
+<div className="block5">
+  {/* <img src={block5} alt="" /> */}
+</div>
+
+</div>
+
   </div>
         </div>
       
