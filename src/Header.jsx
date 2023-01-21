@@ -7,11 +7,7 @@ import { CiHeart } from "react-icons/ci";
 import { CgShoppingBag } from "react-icons/cg";
 import imag from "./img/aboutbg.webp";
 import logot from "./img/videoplay.webp";
-// import block1 from ".img\brand-hover1.webp";
-// // import block2 from ".img\brand-hover2.webp";
-// // import block3 from ".img\brand-hover3.webp";
-// // import block4 from ".img\brand-hover4.webp";
-// // import block5 from ".img\brand-hover5.webp";
+
 
 export default function Header() {
   return (
@@ -50,9 +46,9 @@ export default function Header() {
       </div>
       <div className="Header_average">
         <div className="container2">
-        
+
           <div className="_nav1">
-          
+
             <div className="text">
               <h1>About Us</h1>
               <p className="home">
@@ -62,9 +58,16 @@ export default function Header() {
             </div>
           </div>
 
-          <div></div>
+
         </div>
+
+
+
         
+
+
+
+
       </div>
     </div>
   );
