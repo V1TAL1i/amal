@@ -16,7 +16,8 @@ export default function About() {
   return (
     <div>
       <div className="container3">
-        <div className="you">
+        <div className="you" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
           <img src={imag} alt="asdf" className="big" />
           <div className="logog">
             <a href="https://youtu.be/2Zt8va_6HRk">
@@ -27,7 +28,8 @@ export default function About() {
         </div>
       </div>
       <div className="obj">
-        <div className="container">
+        <div className="container" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
           <div className="texxt">
             <div>
               <h1 className="vis">Our Vision</h1>
@@ -44,7 +46,8 @@ export default function About() {
         </div>
 
       </div>
-      <div className="bloki">
+      <div className="bloki" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
 
         <div className="container">
 
@@ -70,7 +73,8 @@ export default function About() {
 
       </div>
 
-      <div className="team">
+      <div className="team" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
         <h2 className="member">Team Member</h2>
         <p className="lorem">Lorem ipsum dolor sit amet,
           consectetur adipisicing elit, sed do eiusmod
@@ -81,19 +85,22 @@ export default function About() {
 
       <div className="people">
 
-        <div className="kommand effect">
+        <div className="kommand effect" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
 
           <h1 className="kianna">KIANNA PHAM</h1>
           <p className="mem">Team Member</p>
         </div>
 
-        <div className="kommand2 effect">
+        <div className="kommand2 effect" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
 
           <h1 className="kianna">KIANNA PHAM</h1>
           <p className="mem">Team Member</p>
         </div>
 
-        <div className="kommand3 effect">
+        <div className="kommand3 effect" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
 
           <h1 className="kianna">KIANNA PHAM</h1>
           <p className="mem">Team Member</p>
