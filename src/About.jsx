@@ -1,14 +1,14 @@
 import React from "react";
 import imag from "./img/aboutbg.webp";
 import logot from "./img/videoplay.webp";
-import block1 from "../src/img/brand1.webp";
-import block2 from "../src/img/brand2.webp";
-import block3 from "../src/img/brand3.webp";
-import block4 from "../src/img/brand4.webp";
-import block5 from "../src/img/brand5.webp";
-import teamkom1 from "./img/teamkom1.webp";
-import teamkom2 from "./img/teamkom2.webp";
-import teamkom3 from "./img/teamkom3.webp";
+import block1 from "./../src/img/brand1.webp";
+import block2 from "./../src/img/brand2.webp";
+import block3 from "./../src/img/brand3.webp";
+import block4 from "./../src/img/brand4.webp";
+import block5 from "./../src/img/brand5.webp";
+// import teamkom1 from "./img/teamkom1.webp";
+// import teamkom2 from "./img/teamkom2.webp";
+// import teamkom3 from "./img/teamkom3.webp";
 
 
 
@@ -76,7 +76,7 @@ export default function About() {
       <div className="team" data-aos="fade-up"
      data-aos-anchor-placement="bottom-center">
         <h2 className="member">Team Member</h2>
-        <p className="lorem">Lorem ipsum dolor sit amet,
+        <p className="loremt">Lorem ipsum dolor sit amet,
           consectetur adipisicing elit, sed do eiusmod
           <span>tempor incididunt ut labore et dolore magna</span>
         </p>
@@ -86,14 +86,14 @@ export default function About() {
       <div className="people">
 
         <div className="kommand effect" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center">
+     data-aos-anchor-placement="bottom-center"  data-aos-delay="300">
 
           <h1 className="kianna">KIANNA PHAM</h1>
           <p className="mem">Team Member</p>
         </div>
 
         <div className="kommand2 effect" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center">
+     data-aos-anchor-placement="bottom-center"  data-aos-delay="150">
 
           <h1 className="kianna">KIANNA PHAM</h1>
           <p className="mem">Team Member</p>

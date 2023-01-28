@@ -1,0 +1,31 @@
+
+    .swiper {
+        width: 60vw;
+      }
+
+      #swiper-pagination {
+        position: static;
+      }
+  
+      .swiper-pagination-bullet {
+        width: 1.6rem;
+        height: 4px;
+        border-radius: 0;
+        transition: width .3s;
+      }
+     
+      .swiper-pagination-bullet-active {
+        width: 4rem;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+.slideWrapper{
+    display: flex;
+}
