@@ -5,7 +5,7 @@ import About from "./About.jsx";
 import AOS from 'aos';
 // import 'aos/dist/aos.css';
 import Swipper from "./Swipper.jsx";
-
+import Eat from "././Eat.jsx";
 
 
 import logo from "./img/logo.webp";
@@ -90,6 +90,10 @@ function App() {
       <About/>
       <div className="fony">
       <Swipper/>
+
+      </div>
+      <div className="eat">
+        <Eat/>
       </div>
     </div>
   );

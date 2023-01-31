@@ -9,6 +9,10 @@ import block5 from "./../src/img/brand5.webp";
 // import teamkom1 from "./img/teamkom1.webp";
 // import teamkom2 from "./img/teamkom2.webp";
 // import teamkom3 from "./img/teamkom3.webp";
+// import services1 from "./../src/img/services1.webp";
+// import services2 from "./../src/img/services2.webp";
+// import services3 from "./../src/img/services3.webp";
+// import services4 from "./../src/img/services4.webp";
 
 
 
@@ -17,7 +21,7 @@ export default function About() {
     <div>
       <div className="container3">
         <div className="you" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center">
+          data-aos-anchor-placement="bottom-center">
           <img src={imag} alt="asdf" className="big" />
           <div className="logog">
             <a href="https://youtu.be/2Zt8va_6HRk">
@@ -29,7 +33,7 @@ export default function About() {
       </div>
       <div className="obj">
         <div className="container" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center">
+          data-aos-anchor-placement="bottom-center">
           <div className="texxt">
             <div>
               <h1 className="vis">Our Vision</h1>
@@ -47,12 +51,13 @@ export default function About() {
 
       </div>
       <div className="bloki" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center">
+        data-aos-anchor-placement="bottom-center">
 
         <div className="container">
 
           <div className="block">
             <img src={block1} alt="" />
+            <h1>dfdfdfd</h1>
           </div>
           <div className="block">
             <img src={block2} alt="" />
@@ -74,7 +79,7 @@ export default function About() {
       </div>
 
       <div className="team" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center">
+        data-aos-anchor-placement="bottom-center">
         <h2 className="member">Team Member</h2>
         <p className="loremt">Lorem ipsum dolor sit amet,
           consectetur adipisicing elit, sed do eiusmod
@@ -86,21 +91,21 @@ export default function About() {
       <div className="people">
 
         <div className="kommand effect" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center"  data-aos-delay="300">
+          data-aos-anchor-placement="bottom-center" data-aos-delay="300">
 
           <h1 className="kianna">KIANNA PHAM</h1>
           <p className="mem">Team Member</p>
         </div>
 
         <div className="kommand2 effect" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center"  data-aos-delay="150">
+          data-aos-anchor-placement="bottom-center" data-aos-delay="150">
 
           <h1 className="kianna">KIANNA PHAM</h1>
           <p className="mem">Team Member</p>
         </div>
 
         <div className="kommand3 effect" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center">
+          data-aos-anchor-placement="bottom-center">
 
           <h1 className="kianna">KIANNA PHAM</h1>
           <p className="mem">Team Member</p>
@@ -111,3 +116,4 @@ export default function About() {
     </div>
   );
 }
+

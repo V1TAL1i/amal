@@ -4,6 +4,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import image1 from "./img/testimonial-shap.webp";
 import {MdStarRate} from 'react-icons/md'
+// import services1 from "./../src/img/services1.webp";
+// import services2 from "./../src/img/services2.webp";
+// import services3 from "./../src/img/services3.webp";
+// import services4 from "./../src/img/services4.webp";
+
+
+
 export default function Swipper() {
   return (
     <div class="myswiper">
@@ -83,3 +90,5 @@ export default function Swipper() {
   </div>
   )
 }
+
+
