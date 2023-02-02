@@ -3,11 +3,9 @@ import React from "react";
 import "./Header.scss"
 import About from "./About.jsx";
 import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import 'aos/dist/aos.css';
 import Swipper from "./Swipper.jsx";
-import Eat from "././Eat.jsx";
-
-
+import Eat from "./Eat.jsx";
 import logo from "./img/logo.webp";
 import image from "./img/breadcrumbs-bg.webp";
 import { IoIosSearch } from "react-icons/io";
@@ -15,6 +13,10 @@ import { CiHeart } from "react-icons/ci";
 import { CgShoppingBag } from "react-icons/cg";
 import imag from "./img/aboutbg.webp";
 import logot from "./img/videoplay.webp";
+import services1 from "./../src/img/services1.webp";
+import services2 from "./../src/img/services2.webp";
+import services3 from "./../src/img/services3.webp";
+import services4 from "./../src/img/services4.webp";
 
 function Header() {
   return (
@@ -29,6 +31,9 @@ function Header() {
           </div>
         </div>
       </div>
+
+
+
 
       <div className="Header_nav">
         <div className="container">
@@ -48,6 +53,7 @@ function Header() {
             <IoIosSearch />
             <CiHeart />
             <CgShoppingBag />
+
           </div>
         </div>
       </div>
@@ -64,17 +70,7 @@ function Header() {
               </p>
             </div>
           </div>
-
-
         </div>
-
-
-
-        
-
-
-
-
       </div>
     </div>
   );
@@ -90,12 +86,51 @@ function App() {
       <About/>
       <div className="fony">
       <Swipper/>
-
+    
       </div>
       <div className="eat">
-        <Eat/>
+  <div className="container">
+
+<div className="center">
+
+    <div className="pastry">
+      <div className="services1">
+      <img src={services1} alt="" />
       </div>
+
+      <a href="ff">PASTRY</a>
+      <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
     </div>
+
+    <div className="breakfast">
+      <div className="services2">
+      <img src={services2} alt="" />
+      </div>
+      <a href="ff">BREAKFAST</a>
+      <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
+    </div>
+
+    <div className="cake">
+      <div className="services3">
+      <img src={services3} alt="" />
+      </div>
+      <a href="ff">COFEE CAKE</a>
+      <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
+    </div>
+
+    <div className="tost">
+      <div className="services4">
+      <img src={services4} alt="" />
+      </div>
+      <a href="ff">BAKE TOST</a>
+      <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
+    </div>
+
+</div>
+  </div>
+</div>
+    </div>
+    
   );
 }
 
