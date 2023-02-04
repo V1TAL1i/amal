@@ -17,6 +17,10 @@ import services1 from "./../src/img/services1.webp";
 import services2 from "./../src/img/services2.webp";
 import services3 from "./../src/img/services3.webp";
 import services4 from "./../src/img/services4.webp";
+import shipping1 from "./img/shipping1.webp";
+import shipping2 from "./img/shipping2.webp";
+import shipping3 from "./img/shipping3.webp";
+
 
 function Header() {
   return (
@@ -80,57 +84,100 @@ function App() {
   AOS.init()
   return (
     <div className='App'>
-      <Header/> 
+      <Header />
 
-      
-      <About/>
+
+      <About />
       <div className="fony">
-      <Swipper/>
-    
+        <Swipper />
+
       </div>
       <div className="eat">
-  <div className="container">
+        <div className="container">
 
-<div className="center">
+          <div className="center">
 
-    <div className="pastry">
-      <div className="services1">
-      <img src={services1} alt="" />
+            <div className="pastry">
+              <div className="services1">
+                <img src={services1} alt="" />
+              </div>
+
+              <a href="ff">PASTRY</a>
+              <p className="ppp">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
+            </div>
+
+            <div className="breakfast">
+              <div className="services2">
+                <img src={services2} alt="" />
+              </div>
+              <a href="ff">BREAKFAST</a>
+              <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
+            </div>
+
+            <div className="cake">
+              <div className="services3">
+                <img src={services3} alt="" />
+              </div>
+              <a href="ff">COFEE CAKE</a>
+              <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
+            </div>
+
+            <div className="tost">
+              <div className="services4">
+                <img src={services4} alt="" />
+              </div>
+              <a href="ff">BAKE TOST</a>
+              <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
+            </div>
+
+          </div>
+        </div>
       </div>
 
-      <a href="ff">PASTRY</a>
-      <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
-    </div>
 
-    <div className="breakfast">
-      <div className="services2">
-      <img src={services2} alt="" />
+      <div className="niz">
+
+        <div className="verh">
+
+          <div className="shipping">
+            <div className="ship">
+              <img src={shipping1} alt="" />
+            </div>
+            <div className="texx">
+              <h3 className="free">Free Shipping</h3>
+              <p className="capped">Capped at $39 per order</p>
+            </div>
+          </div>
+          <div className="payments">
+            <div className="ship2">
+              <img src={shipping2} alt="" />
+            </div>
+            <div className="textt">
+              <h3 className="card">Card Payments</h3>
+              <p className="month">12 Months Installments</p>
+            </div>
+          </div>
+
+          <div className="returns">
+            <div className="ship3">
+              <img src={shipping3} alt="" />
+            </div>
+            <div className="texz">
+              <h3 className="easy">Easy Returns</h3>
+              <p className="shop">Shop Wwith Confidence</p>
+            </div>
+          </div>
+
+        </div>
+        <div className="infa">
+
+        </div>
+
+
+
       </div>
-      <a href="ff">BREAKFAST</a>
-      <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
     </div>
 
-    <div className="cake">
-      <div className="services3">
-      <img src={services3} alt="" />
-      </div>
-      <a href="ff">COFEE CAKE</a>
-      <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
-    </div>
-
-    <div className="tost">
-      <div className="services4">
-      <img src={services4} alt="" />
-      </div>
-      <a href="ff">BAKE TOST</a>
-      <p className="p">Lorem ipsum dolor sit ametgtol consecr adipiscing elit.</p>
-    </div>
-
-</div>
-  </div>
-</div>
-    </div>
-    
   );
 }
 
