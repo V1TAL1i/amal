@@ -669,13 +669,14 @@ position: relative;
         padding: 60px 0;
         width: 100%;
         justify-content: center;
-        &::before{
+
+        &::after{
             content: "";
             position: absolute;
             bottom:-1px;
-            width: 1px;
-            height: 30px;
-            background-color: red;
+            width: 1200px;
+            height: 0.1px;
+            background-color:rgb(219, 218, 218);
             
         }
 
@@ -757,5 +758,168 @@ position: relative;
                 font-size: 15px;
             }
         }
+    }
+}
+.infa{
+display: flex; 
+margin-top:70px;
+.contacts{
+width: 600px;
+color: #fff;
+.conta{
+font-family: 23px;
+font-family: "Playfair Display", serif;
+}
+    .you{
+        width: 300px;
+margin-top: 30px;
+font-size: 20px;
+    }
+    .your{
+        margin-top: 30px;
+        font-size: 20px;
+        width:300px;
+    }
+    .number{
+        content: "|";
+        right: -20px;
+        color: rgb(211, 43, 71);
+    }
+    .email{
+        color: #fc7c7c;
+
+    }
+}
+
+
+}
+.celoe{
+
+
+.infar{
+width: 600px;
+display: flex;
+    .infor{
+position: relative;
+color: #fff;
+font-family: "Playfair Display", serif;
+
+&::before{
+    content: "";
+    position: absolute;
+    left: -40px;
+    top: -70px;
+    width: 1px;
+    height: 300px;
+    margin-top: 60px;
+  
+    background-color: gray;
+    
+}
+    }
+    .formation{
+       
+    .mation{
+        margin-top: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        &>.a{
+ 
+        }
+        
+        
+    }
+}
+.acc{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    
+}
+.count{
+    margin-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+}
+.account{
+    position: relative;
+    flex-direction: column;
+    &::before{
+        content: "";
+    position: absolute;
+    right:-1px;
+    top: -70px;
+    width: 1px;
+    height: 300px;
+    margin-top: 60px;
+  
+    background-color: gray;
+        
+    }
+}
+
+
+}
+.newsletter{
+   
+    margin-left: 50px;
+    color: #fff;
+width: 600px;
+    .news{
+
+font-family: "Playfair Display", serif;;
+
+    }
+    .have{
+        width: 250px;
+        margin-top: 30px;
+font-size: 16px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.adress{
+   
+margin-top: 30px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border-radius: 13px;
+    
+    .adre{
+        margin-left: 20px;
+        padding-top: 10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: grey;
+        font-size: 16px;
+        font-weight: 100;
+        position: relative;
+       
+    }
+
+    .strelka{
+       width: 50px;
+       height: 30px;
+       background-color: #fc7c7c;
+       position: absolute;
+       margin-left: 200px;
+       border-radius: 10px;
+    }
+    .rek{
+        width: 30px;  
+margin-left: 10px;
+        position: absolute;
+        color: #fff;
+    }
+}
+.send{
+    color: palevioletred;
+}
+
+
+}
+.paypel{
+    margin-top: 30px;
+    .payp{
+        width: 180px;
     }
 }
