@@ -228,7 +228,10 @@ a {
 
     }
 }
-
+.dolor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:wavy;
+}
 .obj {
 
     .container {
@@ -541,10 +544,8 @@ a {
         margin-bottom: 100px;
         text-align: center;
         font-size: 20px;
-        // &>div {
-        //     border-right: solid 1px grey;
-        //     border-left: solid 1px grey;
-        // }
+
+        
         a {
             color: black;
 
@@ -566,24 +567,29 @@ a {
         .center {
             display: flex;
             font-size: 20px;
-           
+            
+
         }
 
         .pastry {
             border-right: solid 1px rgb(219, 218, 218);
+            
 
             .services1 {
                 padding-bottom: 30px;
                 position: relative;
-                &::before{
+                
+
+                &::before {
                     content: "";
                     position: absolute;
-                    right: -1px;;
+                    right: -1px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                     top: 100px;
                     width: 1px;
                     height: 30px;
                     background-color: red;
-                    
+
                 }
             }
         }
@@ -592,23 +598,28 @@ a {
             margin-top: 10px;
             color: #171616;
             position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             
-            .ppp{
-                &::before{
+
+            .p {
+                
+                &::before {
                     content: "";
                     position: absolute;
+                    
                     left: 0;
                     width: 1px;
                     height: 20px;
                     background-color: white;
-                    
+
                 }
             }
         }
 
         .breakfast {
             position: relative;
-            &::before{
+
+            &::before {
                 content: "";
                 position: absolute;
                 right: -1px;
@@ -616,21 +627,24 @@ a {
                 width: 1px;
                 height: 30px;
                 background-color: red;
-                
+
             }
+
             border-right: solid 1px rgb(219, 218, 218);
+
             .services2 {
 
                 padding-bottom: 18px;
-                
+
             }
         }
 
         .cake {
-position: relative;
- border-right: solid 1px rgb(219, 218, 218);
+            position: relative;
+            border-right: solid 1px rgb(219, 218, 218);
+
             .services3 {
-                &::before{
+                &::before {
                     content: "";
                     position: absolute;
                     right: -1px;
@@ -638,8 +652,9 @@ position: relative;
                     width: 1px;
                     height: 30px;
                     background-color: red;
-                    
+
                 }
+
                 padding-bottom: 37px;
                 width: 300px;
             }
@@ -659,7 +674,6 @@ position: relative;
 .niz {
     background-color: #243a6e;
     width: 100%;
-    height: 600px;
 
 
     .verh {
@@ -670,14 +684,14 @@ position: relative;
         width: 100%;
         justify-content: center;
 
-        &::after{
+        &::after {
             content: "";
             position: absolute;
-            bottom:-1px;
+            bottom: -1px;
             width: 1200px;
             height: 0.1px;
-            background-color:rgb(219, 218, 218);
-            
+            background-color: rgb(219, 218, 218);
+
         }
 
         .shipping {
@@ -760,166 +774,244 @@ position: relative;
         }
     }
 }
-.infa{
-display: flex; 
-margin-top:70px;
-.contacts{
-width: 600px;
-color: #fff;
-.conta{
-font-family: 23px;
-font-family: "Playfair Display", serif;
-}
-    .you{
-        width: 300px;
-margin-top: 30px;
-font-size: 20px;
-    }
-    .your{
-        margin-top: 30px;
-        font-size: 20px;
-        width:300px;
-    }
-    .number{
-        content: "|";
-        right: -20px;
-        color: rgb(211, 43, 71);
-    }
-    .email{
-        color: #fc7c7c;
 
-    }
-}
-
-
-}
-.celoe{
-
-
-.infar{
-width: 600px;
-display: flex;
-    .infor{
-position: relative;
-color: #fff;
-font-family: "Playfair Display", serif;
-
-&::before{
-    content: "";
-    position: absolute;
-    left: -40px;
-    top: -70px;
-    width: 1px;
-    height: 300px;
-    margin-top: 60px;
-  
-    background-color: gray;
-    
-}
-    }
-    .formation{
-       
-    .mation{
-        margin-top: 30px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        &>.a{
- 
-        }
-        
-        
-    }
-}
-.acc{
-    color: #fff;
-    font-family: "Playfair Display", serif;
+.infa {
     display: flex;
-    
-}
-.count{
-    margin-top: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    flex-shrink: 1;
+    margin-top: 70px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
 
+    .contacts {
+        padding: 0 20px;
+        max-width: 600px;
+        color: #fff;
 
-}
-.account{
-    position: relative;
-    flex-direction: column;
-    &::before{
-        content: "";
-    position: absolute;
-    right:-1px;
-    top: -70px;
-    width: 1px;
-    height: 300px;
-    margin-top: 60px;
-  
-    background-color: gray;
-        
+        .conta {
+            font-family: 23px;
+            font-family: "Playfair Display", serif;
+        }
+
+        .you {
+            max-width: 300px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+
+        .your {
+            display: flex;
+            margin-top: 30px;
+            font-size: 20px;
+            max-width: 300px;
+           i{
+            
+            color: #fc7c7c;
+            font-size: 26px;
+            
+            transform: scaleY(1.6) scaleX(1.6);
+            
+            padding-right: 20px;
+            margin-top: 10px;
+            
+           }
+
+        }
+
+        .number {
+            
+            content: "|";
+            right: -20px;
+            color: rgb(211, 43, 71);
+        }
+
+        .email {
+            color: #fc7c7c;
+
+        }
     }
-}
 
 
 }
-.newsletter{
-   
+
+.celoe {
+
+
+    .infar {
+        max-width: 600px;
+        display: flex;
+
+        .infor {
+            position: relative;
+            color: #fff;
+            font-family: "Playfair Display", serif;
+
+         
+        }
+
+        .formation {
+            position: relative;
+            padding: 0 20px;
+
+            .mation {
+                font-size: 18px;
+                margin-top: 30px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                display: flex;
+                flex-direction: column;
+                padding-right: 100px;
+              
+
+
+
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0px;
+                top: -70px;
+                width: 1px;
+                height: 300px;
+                margin-top: 60px;
+                background-color: gray;
+
+            }
+        }
+
+        .acc {
+            color: #fff;
+            font-family: "Playfair Display", serif;
+            display: flex;
+
+        }
+
+        .count {
+            padding: 0 20px;
+            font-size: 18px;
+            margin-top: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            padding-right: 70px;
+
+        }
+
+
+    }
+
+    .account {
+        position: relative;
+        flex-direction: column;
+
+        &::before {
+            content: "";
+            position: absolute;
+            right: -1px;
+            top: -70px;
+            width: 1px;
+            height: 300px;
+            margin-top: 60px;
+
+            background-color: gray;
+
+        }
+    }
+
+
+}
+
+.newsletter {
+
     margin-left: 50px;
     color: #fff;
-width: 600px;
-    .news{
+    .news {
 
-font-family: "Playfair Display", serif;;
+        font-family: "Playfair Display", serif;
+        ;
 
     }
-    .have{
+
+    .have {
         width: 250px;
         margin-top: 30px;
-font-size: 16px;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-.adress{
-   
-margin-top: 30px;
-    width: 250px;
-    height: 40px;
-    background-color: white;
-    border-radius: 13px;
-    
-    .adre{
-        margin-left: 20px;
-        padding-top: 10px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: grey;
         font-size: 16px;
-        font-weight: 100;
-        position: relative;
-       
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .strelka{
-       width: 50px;
-       height: 30px;
-       background-color: #fc7c7c;
-       position: absolute;
-       margin-left: 200px;
-       border-radius: 10px;
+    .adress {
+position: relative;
+        margin-top: 30px;
+        width: 250px;
+        height: 40px;
+        background-color: white;
+        border-radius: 13px;
+
+        .adre {
+            margin-left: 20px;
+            padding-top: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: grey;
+            font-size: 16px;
+            font-weight: 100;
+            position: relative;
+
+        }
+
+        .strelka {
+            position: absolute;
+            width: 60px;
+            height: 35px;
+            background-color: #fc7c7c;
+            margin-top: 2px;
+            padding-top: 5px;
+            
+            margin-left: 186px;
+            border-radius: 10px;
+          &>.strellka{
+            
+            font-size: 23px;
+            font-weight: 500;
+            padding-left: 17px;
+            padding-top: 15px;
+            
+            
+
+            
+            
+          }
+        }
+
+        .rek {
+            width: 30px;
+            margin-left: 10px;
+            
+            color: #fff;
+        }
     }
-    .rek{
-        width: 30px;  
-margin-left: 10px;
-        position: absolute;
-        color: #fff;
+
+    .send {
+        color: palevioletred;
     }
-}
-.send{
-    color: palevioletred;
-}
 
 
 }
-.paypel{
+
+.paypel {
     margin-top: 30px;
-    .payp{
+
+    .payp {
         width: 180px;
     }
+}
+
+.konec {
+    border-top: solid 1px gray;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-family: sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 100px;
 }

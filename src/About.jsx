@@ -6,13 +6,7 @@ import block2 from "./../src/img/brand2.webp";
 import block3 from "./../src/img/brand3.webp";
 import block4 from "./../src/img/brand4.webp";
 import block5 from "./../src/img/brand5.webp";
-// import teamkom1 from "./img/teamkom1.webp";
-// import teamkom2 from "./img/teamkom2.webp";
-// import teamkom3 from "./img/teamkom3.webp";
-// import services1 from "./../src/img/services1.webp";
-// import services2 from "./../src/img/services2.webp";
-// import services3 from "./../src/img/services3.webp";
-// import services4 from "./../src/img/services4.webp";
+
 
 
 
@@ -37,13 +31,13 @@ export default function About() {
           <div className="texxt">
             <div>
               <h1 className="vis">Our Vision</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmoddll tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni quis nostrud exercit ullamco laboris nisi ut aliquip ex ea commodo conseql Duis aute irure dolor in reprehendergg in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+              <p className="dolor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmoddll tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni quis nostrud exercit ullamco laboris nisi ut aliquip ex ea commodo conseql Duis aute irure dolor in reprehendergg in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
 
             </div>
 
             <div className="mis">
               <h1 className="miss">Our Mission</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmoddll tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni quis nostrud exercit ullamco laboris nisi ut aliquip ex ea commodo conseql Duis aute irure dolor in reprehendergg in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+              <p className="dolor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmoddll tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni quis nostrud exercit ullamco laboris nisi ut aliquip ex ea commodo conseql Duis aute irure dolor in reprehendergg in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
 
             </div>
           </div>
@@ -57,7 +51,7 @@ export default function About() {
 
           <div className="block">
             <img src={block1} alt="" />
-            <h1>dfdfdfd</h1>
+            
           </div>
           <div className="block">
             <img src={block2} alt="" />
@@ -82,8 +76,8 @@ export default function About() {
         data-aos-anchor-placement="bottom-center">
         <h2 className="member">Team Member</h2>
         <p className="loremt">Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit, sed do eiusmod
-          <span>tempor incididunt ut labore et dolore magna</span>
+          consectetur adipisicing elit, sed do eiusmod <br />
+          tempor incididunt ut labore et dolore magna
         </p>
       </div>
 
