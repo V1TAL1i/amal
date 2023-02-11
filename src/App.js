@@ -2,9 +2,10 @@ import React from "react";
 import "./Header.scss"
 import About from "./About.jsx";
 import AOS from 'aos';
+
 import 'aos/dist/aos.css';
 import Swipper from "./Swipper.jsx";
-import Eat from "./Eat.jsx";
+
 import logo from "./img/logo.webp";
 import image from "./img/breadcrumbs-bg.webp";
 import { IoIosSearch } from "react-icons/io";
@@ -25,6 +26,9 @@ import { RiMapPinLine } from "react-icons/ri";
 import {GiSmartphone} from "react-icons/gi";
 import {ImArrowRight2} from "react-icons/im";
 import { render } from "@testing-library/react";
+import Menu from "./Menu.jsx"
+
+
 
 function Header() {
   return (
@@ -51,7 +55,7 @@ function Header() {
           <div className="nav">
             <ul>
               <li>Home</li>
-              <li className="about">About</li>
+              <li className="aboutt">About</li>
               <li>Blog</li>
               <li>Shop</li>
               <li>Contact</li>
@@ -60,7 +64,12 @@ function Header() {
           <div className="icons">
             <IoIosSearch />
             <CiHeart />
+            
             <CgShoppingBag />
+        
+            
+ 
+          
 
           </div>
         </div>
