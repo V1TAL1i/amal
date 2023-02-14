@@ -1,31 +1,37 @@
 import React from 'react';
 import "./Menu.scss";
 import App from './App';
-
+import { IoIosSearch } from "react-icons/io";
+import { CiHeart } from "react-icons/ci";
 import { CgShoppingBag } from 'react-icons/cg';
 
-function Menu(){
-    const[open, setOpen] = React.useState(true);
- return(
-<div className='menu'>
+function Menu() {
+    const [open, setOpen] = React.useState(false);
 
-<button className='slider'>
+    return (
+        <div className='menu'>
+            <button onClick={() => setOpen(true)} className="icons" >
 
-    <img src={CgShoppingBag} alt="" className='dsds'/>
-<div className='slipper'>
+            <div className="icons">
+            <IoIosSearch />
+            <CiHeart />
 
+            <CgShoppingBag />
 
-<svg onClick={() => setOpen(false)} height="600px" width="400px"/>
+          </div>
+            </button>
+            {open && (
+                <div className='overlay'>
+                    <div className='modal'>
+                        <svg onClick={() => setOpen(false)} height="600px" width="400px" />
+                    </div>
+                </div>
 
-</div>
+            )
 
+            }
 
-</button>
+        </div>
 
-</div>
-
-
-
-
- )
+    )
 }

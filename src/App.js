@@ -2,15 +2,13 @@ import React from "react";
 import "./Header.scss"
 import About from "./About.jsx";
 import AOS from 'aos';
-
 import 'aos/dist/aos.css';
 import Swipper from "./Swipper.jsx";
-
 import logo from "./img/logo.webp";
 import image from "./img/breadcrumbs-bg.webp";
 import { IoIosSearch } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
-import { CgShoppingBag } from "react-icons/cg";
+import {CgShoppingBag} from "react-icons/cg";
 import imag from "./img/aboutbg.webp";
 import logot from "./img/videoplay.webp";
 import services1 from "./../src/img/services1.webp";
@@ -54,17 +52,35 @@ function Header() {
           </div>
           <div className="nav">
             <ul>
-              <li>Home</li>
+
+            <div class="dropdown">
+<button className="Home">
+   <li onClick="home">Home </li> 
+
+
+  <ul class="dropmenu">
+    <i className="menue"><i class="dropdown-item" href="#">Home 01</i></i>
+    <i className="menue"><i class="dropdown-item" href="#">Home 02</i></i>
+
+
+  </ul>
+     
+      </button>
+
+</div>
+        
               <li className="aboutt">About</li>
               <li>Blog</li>
               <li>Shop</li>
               <li>Contact</li>
             </ul>
           </div>
+
+          
           <div className="icons">
             <IoIosSearch />
             <CiHeart />
-            
+
             <CgShoppingBag />
         
             

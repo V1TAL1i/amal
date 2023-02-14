@@ -121,6 +121,47 @@ a {
                 display: flex;
                 gap: 20px;
             }
+           
+                .dropdown{
+                    .Home{
+                        font-size: 20px;
+                        font-family: sans-serif;
+                        font-weight:600;
+                    }
+                    #overlay{
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        display: none;
+                        -webkit-animation: fade .6s;
+                        -moz-animation: fade .6s;
+                        animation: fade .6s;
+                        overflow: auto;
+                    }
+                 
+                .dropmenu{
+                    
+                    width: 220px;
+                    height: 100px;
+                    background-color: #fff;
+                    margin-top:45px;
+                    color: black;      
+                 position: absolute;
+                    display: grid;
+                    color: #171616;
+                    transition: 0.3s;
+
+                
+                }
+                .menue{
+                    font-family: sans-serif;
+                    margin-left: 20px;
+                    font-size: 15px;
+                }
+            }
+           
+              
+
             .sss{
                 font-size: 20px;
             }
