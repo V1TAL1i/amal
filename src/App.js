@@ -8,7 +8,7 @@ import logo from "./img/logo.webp";
 import image from "./img/breadcrumbs-bg.webp";
 import { IoIosSearch } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
-import {CgShoppingBag} from "react-icons/cg";
+import { CgShoppingBag } from "react-icons/cg";
 import imag from "./img/aboutbg.webp";
 import logot from "./img/videoplay.webp";
 import services1 from "./../src/img/services1.webp";
@@ -21,14 +21,15 @@ import shipping3 from "./img/shipping3.webp";
 import strelka from "./img/4723461.png";
 import paypel from "./img/paypal.webp";
 import { RiMapPinLine } from "react-icons/ri";
-import {GiSmartphone} from "react-icons/gi";
-import {ImArrowRight2} from "react-icons/im";
+import { GiSmartphone } from "react-icons/gi";
+import { ImArrowRight2 } from "react-icons/im";
 import { render } from "@testing-library/react";
 import Menu from "./Menu.jsx"
 
 
 
 function Header() {
+  const [show, setShow] = React.useState(false)
   return (
     <div className="Header">
       <div className="Header_top">
@@ -47,45 +48,49 @@ function Header() {
 
       <div className="Header_nav">
         <div className="container">
+
           <div className="Bucker">
             <img src={logo} alt="" />
           </div>
           <div className="nav">
-            <ul>
-
-            <div class="dropdown">
-<button className="Home">
-   <li onClick="home">Home </li> 
+            <ul className="qwer">
 
 
-  <ul class="dropmenu">
-    <i className="menue"><i class="dropdown-item" href="#">Home 01</i></i>
-    <i className="menue"><i class="dropdown-item" href="#">Home 02</i></i>
+
+              <li className="home qwerty" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Home
+
+                <div class="dropdown" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                  {show && <ul class="dropmenu show">
+                    <li>
+                      <i className="menue"><i class="dropdown-item">Home 01</i></i></li>
+                    <li>
+                      <i className="menue"><i class="dropdown-item">Home 02</i></i></li>
+                    </ul>}
+                </div>
+                
+              </li>
 
 
-  </ul>
-     
-      </button>
 
-</div>
-        
-              <li className="aboutt">About</li>
-              <li>Blog</li>
-              <li>Shop</li>
-              <li>Contact</li>
+
+
+              <li className="aboutt qwerty">About</li>
+              <li className=" qwerty">Blog</li>
+              <li className=" qwerty">Shop</li>
+              <li className=" qwerty">Contact</li>
             </ul>
           </div>
 
-          
+
           <div className="icons">
             <IoIosSearch />
             <CiHeart />
 
             <CgShoppingBag />
-        
-            
- 
-          
+
+
+
+
 
           </div>
         </div>
@@ -207,19 +212,19 @@ function App() {
             </div>
             <div className="your">
               <i>
-              <RiMapPinLine/>
+                <RiMapPinLine />
               </i>
               <p>Your address goes here. 123 <br />
                 Address.</p>
             </div>
             <div className="your">
-               <i>
-                <GiSmartphone/>
-                </i>
-                <div>
-                  <a href="">+00 123 456 789</a> <br />
-                  <a href="">+00 123 456 789</a>
-                
+              <i>
+                <GiSmartphone />
+              </i>
+              <div>
+                <a href="">+00 123 456 789</a> <br />
+                <a href="">+00 123 456 789</a>
+
               </div>
             </div>
 
@@ -283,20 +288,20 @@ function App() {
 
             <div className="adress">
 
-            <div className="strelka">
+              <div className="strelka">
                 <i className="strellka">
-                  
-                <ImArrowRight2/>
-                
+
+                  <ImArrowRight2 />
+
                 </i>
-              </div> 
+              </div>
 
 
               <h4 className="adre">Email Address</h4>
 
 
 
-             
+
               <div className="paypel">
                 <img src={paypel} alt="" className="payp" />
               </div>
