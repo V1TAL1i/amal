@@ -131,7 +131,32 @@ a {
 
 
             }
+.blog{
 
+    &::before{
+        content: '';
+            position: absolute;
+            width: 900px;
+            height: 100px;
+            margin-left: 3px;
+            margin-top: 10px;
+            background-repeat: no-repeat;
+            left: -18px;
+            top: -25px;
+            z-index: -1;
+
+    }
+.qwerty{
+
+}
+.drobmenu{
+
+
+    .showw{
+        
+    }
+}
+}
             .icons {
                 color: black;
                 font-size: 30px;
@@ -160,7 +185,7 @@ a {
                     color: black;      
                     position: absolute;
                     top: 10px;
-                    padding: 10px;
+                    
                   
                     color: #171616;
                     li{

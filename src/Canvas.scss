@@ -1,0 +1,120 @@
+.car{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    font-weight: 400;
+    padding-top: 20px;
+    position: relative;
+    padding-bottom: 10px;
+    &::after {
+        content: "";
+        position: absolute;
+        left: -0px;
+        bottom: -1px;
+        width: 360px;
+        height: 0.1px;
+        background-color: rgb(219, 218, 218);
+    
+    } 
+}
+.div1{
+
+position: relative;
+display: flex;
+&::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    width: 360px;
+    height: 0.1px;
+    background-color: rgb(219, 218, 218);
+
+}
+
+.product1{
+    
+    width: 100px;
+   
+}
+.primis{
+margin-left: 10px;
+    width: 150px;
+    
+
+}
+.num{
+    font-weight: 600;
+}
+}
+
+
+.div2{
+display: flex;
+position: relative;
+&::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    width: 360px;
+    height: 0.1px;
+    background-color: rgb(219, 218, 218);
+
+}
+.Letraset{
+padding-top: 20px;
+margin-left: 10px;
+}
+.product2{
+    padding-top: 20px;
+}
+.numm{
+font-weight: 600;
+}
+}
+
+.class{
+padding-top: 30px;
+
+.sub{
+    
+display: flex;
+    .cto{
+        margin-left: 245px;
+        font-weight: 600;
+    }
+}
+.total{
+display: flex;
+    .dva{
+        margin-left: 277px;
+        font-weight: 600;
+    }
+}
+}
+.viev{
+    width: 370px;
+    height: 50px;
+    background-color:#eef0f1;
+    border-color: #eef0f1;
+    &:hover{
+        color: #eef0f1;
+        background-color: #fc7c7c;
+    }
+    .cart{
+        
+        font-size: 13px;
+    }
+}
+.checkout{
+    margin-top: 20px;
+    width: 370px;
+    height: 50px;
+    background-color:#eef0f1;
+    border-color: #eef0f1;
+    &:hover{
+        color: #eef0f1;
+        background-color: #fc7c7c;
+    }
+    .chech{
+        font-size: 13px;
+    }
+}

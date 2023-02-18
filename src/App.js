@@ -26,7 +26,7 @@ import { ImArrowRight2 } from "react-icons/im";
 import { render } from "@testing-library/react";
 import Menu from "./Menu.jsx"
 
-
+import Example from "./Offcanvas";
 
 function Header() {
   const [show, setShow] = React.useState(false)
@@ -69,14 +69,84 @@ function Header() {
                 </div>
                 
               </li>
+ <li className="aboutt qwerty">About</li>
+
+
+ <li className="blog qwerty" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Blog
+
+<div class="dropdown" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+  {show && <ul class="dropmenu showw">
+    <li>
+      <i className="light"><i class="dropdown-item">Shop Layout</i></i></li>
+    <li>
+      
+      <i className="light"><i class="dropdown-item">Shop Fullwidth</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Shop Left Sidebar</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Shop Right Sidebar</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Shop List Fullwidth</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Shop List Left Sidebar</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Shop List Right Sidebar</i></i></li>
+
+      <div className="vtoroe">
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Product Style</i></i></li>
+
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Popular Products</i></i></li>
+
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Product Related</i></i></li>
+
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Single Product Default</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Single Product Group</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Single Product Variable</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Single Product Sale</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Single Product Sticky</i></i></li>
+      <li>
+      
+      <i className="light"><i class="dropdown-item">Single Product Affiliate</i></i></li>
+
+      </div>
+
+      
+    </ul>}
+</div>
+
+                
+              
+
+             
+              </li>
 
 
 
 
-
-              <li className="aboutt qwerty">About</li>
-              <li className=" qwerty">Blog</li>
               <li className=" qwerty">Shop</li>
+
+
               <li className=" qwerty">Contact</li>
             </ul>
           </div>
@@ -86,7 +156,8 @@ function Header() {
             <IoIosSearch />
             <CiHeart />
 
-            <CgShoppingBag />
+           
+            <Example/>
 
 
 
