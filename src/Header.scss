@@ -131,7 +131,7 @@ a {
 
 
             }
-.blog{
+.shop{
 
     &::before{
         content: '';
@@ -147,15 +147,41 @@ a {
 
     }
 .qwerty{
-
+display: flex;
+ list-style: none;
+ position: relative;
 }
 .drobmenu{
 
 
     .showw{
-        
+        &:hover {
+            color: white;
+            transition: .3s;
+
+            &:after {
+                content: '';
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background-image: url(./img/menu_shape.webp);
+                margin-left: 3px;
+                margin-top: 10px;
+                background-repeat: no-repeat;
+                left: -18px;
+                top: -25px;
+                z-index: -1;
+
+            }
+
+        }
+.vtoroe{
+
+}
     }
 }
+
+
 }
             .icons {
                 color: black;
@@ -844,7 +870,7 @@ a {
                 margin-right: 30px;
             }
 
-            .card {
+            .cars {
                 padding-top: 10px;
                 font-family: "Playfair Display", serif;
                 font-size: 22px;

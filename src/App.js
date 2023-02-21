@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Swipper from "./Swipper.jsx";
 import logo from "./img/logo.webp";
+import Blog from "./Blog.jsx"
 import image from "./img/breadcrumbs-bg.webp";
 import { IoIosSearch } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
@@ -25,7 +26,7 @@ import { GiSmartphone } from "react-icons/gi";
 import { ImArrowRight2 } from "react-icons/im";
 import { render } from "@testing-library/react";
 import Menu from "./Menu.jsx"
-
+import Shop from "./Shop.jsx"
 import Example from "./Offcanvas";
 
 function Header() {
@@ -65,89 +66,102 @@ function Header() {
                       <i className="menue"><i class="dropdown-item">Home 01</i></i></li>
                     <li>
                       <i className="menue"><i class="dropdown-item">Home 02</i></i></li>
-                    </ul>}
+                  </ul>}
                 </div>
-                
+
               </li>
- <li className="aboutt qwerty">About</li>
+              <li className="aboutt qwerty">About</li>
 
 
- <li className="blog qwerty" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Blog
+              <a href="Shop.jsx" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Shop
+
+                <div class="dropdown" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                  {show && <ul class="dropmenu showw">
+                    <li>
+                      <i className="light"><i class="dropdown-item">Shop Layout</i></i></li>
+                    <li>
+
+                      <i className="light"><i class="dropdown-item">Shop Fullwidth</i></i></li>
+                    <li>
+
+                      <i className="light"><i class="dropdown-item">Shop Left Sidebar</i></i></li>
+                    <li>
+
+                      <i className="light"><i class="dropdown-item">Shop Right Sidebar</i></i></li>
+                    <li>
+
+                      <i className="light"><i class="dropdown-item">Shop List Fullwidth</i></i></li>
+                    <li>
+
+                      <i className="light"><i class="dropdown-item">Shop List Left Sidebar</i></i></li>
+                    <li>
+
+                      <i className="light"><i class="dropdown-item">Shop List Right Sidebar</i></i></li>
+
+                    <div className="vtoroe">
+                      <li>
+
+                        <i className="light"><i class="dropdown-item">Product Style</i></i></li>
+
+                      <li>
+
+                        <i className="light"><i class="dropdown-item">Popular Products</i></i></li>
+
+                      <li>
+
+                        <i className="light"><i class="dropdown-item">Product Related</i></i></li>
+
+                      <li>
+
+                        <i className="light"><i class="dropdown-item">Single Product Default</i></i></li>
+                      <li>
+
+                        <i className="light"><i class="dropdown-item">Single Product Group</i></i></li>
+                      <li>
+
+                        <i className="light"><i class="dropdown-item">Single Product Variable</i></i></li>
+                      <li>
+
+                        <i className="light"><i class="dropdown-item">Single Product Sale</i></i></li>
+                      <li>
+
+                        <i className="light"><i class="dropdown-item">Single Product Sticky</i></i></li>
+                      <li>
+
+                        <i className="light"><i class="dropdown-item">Single Product Affiliate</i></i></li>
+
+                    </div>
+
+
+                  </ul>}
+                </div>
+
+
+
+
+
+              </a>
+
+
+
+              <a href="Blog.jsx" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Blog
 
 <div class="dropdown" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-  {show && <ul class="dropmenu showw">
+  {show && <ul class="dropmenu show">
     <li>
-      <i className="light"><i class="dropdown-item">Shop Layout</i></i></li>
+      <i className="menue"><i class="dropdown-item">Blog Holder</i></i></li>
     <li>
-      
-      <i className="light"><i class="dropdown-item">Shop Fullwidth</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Shop Left Sidebar</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Shop Right Sidebar</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Shop List Fullwidth</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Shop List Left Sidebar</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Shop List Right Sidebar</i></i></li>
-
-      <div className="vtoroe">
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Product Style</i></i></li>
-
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Popular Products</i></i></li>
-
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Product Related</i></i></li>
-
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Single Product Default</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Single Product Group</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Single Product Variable</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Single Product Sale</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Single Product Sticky</i></i></li>
-      <li>
-      
-      <i className="light"><i class="dropdown-item">Single Product Affiliate</i></i></li>
-
-      </div>
-
-      
-    </ul>}
+      <i className="menue"><i class="dropdown-item">Blog Detalis Holder</i></i></li>
+  </ul>}
 </div>
 
-                
-              
-
-             
-              </li>
+</a>
 
 
 
 
-              <li className=" qwerty">Shop</li>
 
-
-              <li className=" qwerty">Contact</li>
+             <a href="Contact.jsx">Contact</a>
             </ul>
           </div>
 
@@ -156,8 +170,8 @@ function Header() {
             <IoIosSearch />
             <CiHeart />
 
-           
-            <Example/>
+
+            <Example />
 
 
 
@@ -258,7 +272,7 @@ function App() {
               <img src={shipping2} alt="" />
             </div>
             <div className="textt">
-              <h3 className="card">Card Payments</h3>
+              <h3 className="cars">Card Payments</h3>
               <p className="month">12 Months Installments</p>
             </div>
           </div>
