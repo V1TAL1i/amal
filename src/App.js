@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Swipper from "./Swipper.jsx";
 import logo from "./img/logo.webp";
-import Blog from "./Blog.jsx"
+
 import image from "./img/breadcrumbs-bg.webp";
 import { IoIosSearch } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
@@ -28,6 +28,7 @@ import { render } from "@testing-library/react";
 import Menu from "./Menu.jsx"
 import Shop from "./Shop.jsx"
 import Example from "./Offcanvas";
+import Blog from "./Blog.jsx";
 
 function Header() {
   const [show, setShow] = React.useState(false)
@@ -37,8 +38,8 @@ function Header() {
         <div className="container">
           <div>World Wide Completely Free Returns and Free Shipping</div>
           <div className="nav">
-            <a href="">+00 123 456 789</a>
-            <a href="">demo@example.com</a>
+            <a href="telef">+00 123 456 789</a>
+            <a href="telef">demo@example.com</a>
             <div>Account</div>
           </div>
         </div>
@@ -73,7 +74,7 @@ function Header() {
               <li className="aboutt qwerty">About</li>
 
 
-              <a href="Shop.jsx" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Shop
+              <a class="orange" href="Shop.jsx" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Shop
 
                 <div class="dropdown" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                   {show && <ul class="dropmenu showw">
@@ -143,8 +144,8 @@ function Header() {
               </a>
 
 
-
-              <a href="Blog.jsx" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Blog
+<a class="orange" href="Blog.jsx">Blog</a>
+              {/* <a href="Blog.jsx" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Blog
 
 <div class="dropdown" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
   {show && <ul class="dropmenu show">
@@ -155,13 +156,13 @@ function Header() {
   </ul>}
 </div>
 
-</a>
+</a> */}
 
 
 
 
 
-             <a href="Contact.jsx">Contact</a>
+             <a class="orange4" href="Contact.jsx">Contact</a>
             </ul>
           </div>
 
@@ -186,7 +187,7 @@ function Header() {
           <div className="_nav1">
 
             <div className="text">
-              <h1>About Us</h1>
+              <h1 className="among">About Us</h1>
               <p className="home">
                 Home <span className="drob">//</span>
                 <span className="about">About Us</span>
@@ -307,8 +308,8 @@ function App() {
                 <GiSmartphone />
               </i>
               <div>
-                <a href="">+00 123 456 789</a> <br />
-                <a href="">+00 123 456 789</a>
+                <a href="star">+00 123 456 789</a> <br />
+                <a href="star">+00 123 456 789</a>
 
               </div>
             </div>
@@ -324,13 +325,13 @@ function App() {
                   <h2>INFORMATION </h2>
                 </div>
                 <div className="mation">
-                  <a href="" >About us</a >
-                  <a href="" >Delivery information</a>
-                  <a href="" >Privacy Policy</a >
-                  <a href="" >Sales</a >
-                  <a href="" >Terms & Conditions</a >
-                  <a href="" >Shipping Policy</a >
-                  <a href="" >EMI Payment</a>
+                  <a href="star" >About us</a >
+                  <a href="star" >Delivery information</a>
+                  <a href="star" >Privacy Policy</a >
+                  <a href="star" >Sales</a >
+                  <a href="star" >Terms & Conditions</a >
+                  <a href="star" >Shipping Policy</a >
+                  <a href="star" >EMI Payment</a>
                 </div>
               </div>
               <div className="account">
@@ -338,13 +339,13 @@ function App() {
                   <h2>ACCOUNT</h2>
                 </div>
                 <div className="count">
-                  <a href="" >My account</a>
-                  <a href="" >My orders</a>
-                  <a href="" >Returns</a>
-                  <a href="" >Shipping</a>
-                  <a href="" >Wishlist</a>
-                  <a href="" >How Does It Work</a>
-                  <a href="" >Merchant Sign Up</a>
+                  <a href="star" >My account</a>
+                  <a href="star" >My orders</a>
+                  <a href="star" >Returns</a>
+                  <a href="star" >Shipping</a>
+                  <a href="star" >Wishlist</a>
+                  <a href="star" >How Does It Work</a>
+                  <a href="star" >Merchant Sign Up</a>
                 </div>
               </div>
 

@@ -15,8 +15,9 @@ function Menu() {
             <div className="icons">
             <IoIosSearch />
             <CiHeart />
-
+<div>
             <CgShoppingBag />
+            </div>
 
           </div>
             </button>
