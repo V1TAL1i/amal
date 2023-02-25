@@ -143,8 +143,8 @@ function Header() {
 
               </a>
 
-
-<a class="orange" href="Blog.jsx">Blog</a>
+<button onClick="Blog.jsx">Blog</button>
+{/* <a class="orange" href="Blog.jsx">Blog</a> */}
               {/* <a href="Blog.jsx" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)} >Blog
 
 <div class="dropdown" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
