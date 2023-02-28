@@ -5,7 +5,7 @@ import App from "./App.js";
 
 const Blog = () => {
 return(
-<button onClick="Blog.jsx">Block
+
 
 
 <div className="container2">
@@ -21,7 +21,7 @@ return(
   </div>
 </div>
 </div>
-</button>
+
 
 
 
